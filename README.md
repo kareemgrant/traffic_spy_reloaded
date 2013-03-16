@@ -1,4 +1,5 @@
 # TrafficSpy
+This is a refactored version of the original TrafficSpy project using recently learned techniques.
 
 TODO: Write a gem description
 
