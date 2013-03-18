@@ -8,11 +8,11 @@ group :development do
   gem 'rspec'
   gem 'guard-rspec'
   gem 'rb-fsevent', '~> 0.9'
-end
-
-group :evaluations do
-  # THIS SPACE RESERVED FOR EVALUATIONS
   gem 'cane'
   gem 'reek'
   gem 'rake'
+  gem 'rb-readline'
+  gem 'rack-test'
+  gem 'simplecov'
 end
+

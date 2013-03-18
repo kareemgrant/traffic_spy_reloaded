@@ -1,12 +1,12 @@
 module TrafficSpy
 
   if ENV["TRAFFIC_SPY_ENV"] == "test"
-    database_file = 'db/traffic_spy-test.sqlite3'
-    DB = Sequel.sqlite database_file
+    database_file = "traffic_spy_test"
   else
-    DB = Sequel.postgres "traffic_spy"
+    database_file = "traffic_spy_development"
   end
 
+  DB = Sequel.postgres(database_file)
 end
 
 #
